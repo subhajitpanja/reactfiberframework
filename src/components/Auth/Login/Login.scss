@@ -1,0 +1,8 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+
+h1.test{
+    font-size: 10px;
+    color: $white;
+    padding: $spacer;
+}

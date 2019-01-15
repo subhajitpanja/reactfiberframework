@@ -1,0 +1,25 @@
+.subMenuwrapper .subMenulistItem{
+    box-shadow:0;
+    padding: 0;
+}
+.subMenuwrapper .subMenulistItem:hover{
+    background-color: #fff;
+}
+.subMenulistItem .expPanelForsubMenu{
+    box-shadow: none;
+}
+.expPanelForsubMenu .nestedmenu{
+    padding: 0;
+}
+.reactHomeTitle svg{
+    font-size: 30px;
+    color: cadetblue;
+    margin-top: -15px;
+}
+.reactHomeTitle span{
+    font-size: 26px;
+}
+
+.sideNavMenu a:hover{
+    text-decoration: none;
+}

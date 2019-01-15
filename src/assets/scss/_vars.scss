@@ -1,0 +1,78 @@
+// colors
+$primary: 				#5bc6d0 !default;
+$secondary: 			#ec3136 !default;
+$success: 				#43A047 !default;
+$info: 					#2196F3 !default;
+$warning: 				#FFC107 !default;
+$danger: 				#F44336 !default;
+$grey-medium: 			#c9c9c9 !default;
+$grey-dark: 			#323232 !default;
+$grey-light:			#f3f6f6 !default;
+$gray-500: 				#adb5bd !default;
+$black:					#000000 !default;
+$white:					#ffffff !default;
+$blue-grey:				#4d5f61 !default;
+$social-fb:				#3d5a98 !default;
+$social-gp:				#dd4b39 !default;
+$social-tw:				#00aced !default;
+$light:     		    #f4f4f4 !default;
+$dark:                  #222222 !default;
+
+// body colors
+$body-bg:               linear-gradient(rgba($primary,.20), $white) no-repeat !default;
+$body-color:            $grey-dark !default;
+$headings-color:		$grey-dark !default;
+
+$shadow-color:			$grey-dark !default;
+
+// theme colors
+$theme-colors: (
+	"primary"			: $primary,
+	"secondary"			: $secondary,
+	"success"			: $success,
+	"info"				: $info,
+	"warning"			: $warning,
+	"danger"			: $danger,
+	"light"				: $grey-light,
+	"dark"				: $grey-dark,
+	"medium"			: $grey-medium,
+
+	"blue-grey"			: $blue-grey,
+
+	"body-color"		: $body-color,
+
+	"fb"				: $social-fb,
+	"gp"				: $social-gp,
+	"tw"				: $social-tw
+) !default;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-base		: 'Open Sans', sans-serif;
+$font-size-base			: 0.875rem;
+
+
+$h1-font-size			: 3.375rem !default;
+$h2-font-size			: 2.625rem !default;
+$h3-font-size			: 1.5rem !default;
+$h4-font-size			: 1.125rem !default;
+$h5-font-size			: 1rem !default;
+$h6-font-size			: $font-size-base !default;
+
+
+// Buttons + Forms
+$input-btn-focus-width		: 0 !default;
+$input-btn-focus-box-shadow	: 0 !default;
+$input-border-color			: $grey-medium !default;
+$input-color				: $gray-500;
+$input-border-radius		: 0 !default;
+
+// spacing
+$spacer					: 0.9375rem;
+
+// trnsition
+$transition				: all .15s ease-in-out;
+
+
+
